@@ -11,7 +11,7 @@ app.use();
 
 app.get('about',(req,response)=>{
     response.send(`<h1>Hey Here Iam </h1>`);
-})``
+})
 
 app.get('home',(req,response)=>{
     response.send(`<h1>Hey Here Iam </h1>`);
