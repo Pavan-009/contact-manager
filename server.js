@@ -9,4 +9,4 @@ app.listen(port,()=>{
     console.log(`Server Started in port ${port}!!!`);
 });
 
-app.use('/api/contacts',require('./Routes.js/ContactRoutes'));
+app.use('/api/contacts',require('./Routes/ContactRoutes'));
