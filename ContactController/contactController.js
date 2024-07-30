@@ -1,20 +1,22 @@
-let getAllContact = ((req,response)=>{
+const handler = require('express-async-handler')
+
+let getAllContact = handler(async(req,response)=>{
     response.send(`<h1>Hey Here Iam </h1>`);
 });
 
-let createContact = ((req,response)=>{
+let createContact = handler(async(req,response)=>{
     response.send(`<h1>Hey Here Iam </h1>`);
 });
 
-let getContact = ((req,response)=>{
+let getContact = handler(async(req,response)=>{
     response.send(`<h1>Hey Here Iam </h1>`);
 });
 
-let updateContact = ((req,response)=>{
+let updateContact = handler(async(req,response)=>{
     response.send(`<h1>Updated Sucessfully!!!!</h1>`);
 });
 
-let deleteContact = ((req,response)=>{
+let deleteContact = handler(async(req,response)=>{
     response.send(`<h1>Delete Sucessfully!!!</h1>`);
 });
 
